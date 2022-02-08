@@ -359,6 +359,19 @@ class Widgets {
         fontSize: 16.0);
   }
 
+    // static void zoomDialog(BuildContext context, image) => showDialog(
+  //       context: context,
+  //       builder: (BuildContext context) {
+  //         return Dialog(
+  //           child: PhotoView(
+  //             tightMode: true,
+  //             imageProvider: FileImage(image),
+  //             heroAttributes: const PhotoViewHeroAttributes(tag: "someTag"),
+  //           ),
+  //         );
+  //       },
+  //     );
+  
   static showCardFunc(context, image, title, desc) {
     return showDialog(
       context: context,
